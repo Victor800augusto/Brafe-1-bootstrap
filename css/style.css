@@ -200,7 +200,8 @@ h2.produtos-mineiro::before {
 
 .produtos-btn:hover {
 	text-decoration: none;
-	color: #252525;
+	color: #c17139;
+	border-color: #c17139;
 }
 
 /* Locais */
@@ -234,6 +235,11 @@ h2.produtos-mineiro::before {
 	border: 3px solid;
 	color: #252525;
 	padding: 10px 20px;
+}
+
+.locais-item a:hover {
+	color: #c17139;
+	border-color: #c17139;
 }
 
 /* Assine */
@@ -285,6 +291,10 @@ h2.produtos-mineiro::before {
 	cursor: pointer;
 	align-self: flex-start;
 	padding: 13px;
+}
+
+.assine button:hover {
+	background: #c17139;
 }
 
 /*Footer*/
